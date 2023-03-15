@@ -149,6 +149,10 @@ table {
     border-spacing: 0;
 }
 
+img {
+    -webkit-user-drag: none;
+}
+
 a,
 a:hover,
 a:active,
