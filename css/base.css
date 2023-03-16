@@ -12,6 +12,7 @@
 *,
 *:before,
 *:after {
+    box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
     -ms-box-sizing: border-box;
@@ -147,6 +148,10 @@ q:after {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+img {
+    -webkit-user-drag: none;
 }
 
 a,
@@ -312,6 +317,7 @@ blockquote {
     background: -webkit-linear-gradient(left, #ee0e98 30%, rgba(0, 255, 221, 0.9) 65%);
     background: -moz-linear-gradient(left, #ee0e98 30%, rgba(0, 255, 191, 0.9) 65%);
     background: linear-gradient(left, #ee0e98 30%, rgba(0, 255, 191, 0.9) 65%);
+    background-clip: inherit;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     color: #399bff;
@@ -356,7 +362,7 @@ section,
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
     -ms-border-radius: 6px;
-    -o-border-radius: : 6px;
+    -o-border-radius: 6px;
 }
 
 .indent {
@@ -479,7 +485,7 @@ input[type="submit"] textarea,
     -webkit-border-radius: 25px;
     -moz-border-radius: 25px;
     -ms-border-radius: 25px;
-    -o-border-radius: : 25px;
+    -o-border-radius: 25px;
 }
 
 a.link {
